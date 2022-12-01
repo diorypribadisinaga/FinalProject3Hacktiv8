@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon bin/www",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "sequelize db:migrate && sequelize db:seed:all && node bin/www"
+    "start": "node bin/www"
   },
   "keywords": [],
   "author": "",
