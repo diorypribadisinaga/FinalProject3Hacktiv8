@@ -7,7 +7,7 @@
     "dev": "nodemon bin/www",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bin/www",
-    "migrate": "npx sequelize db:migrate"
+    "migrate": "npx sequelize db:seed:all"
   },
   "keywords": [],
   "author": "",
